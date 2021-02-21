@@ -125,6 +125,7 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 100%;
 }
 
 h2 {
@@ -177,13 +178,13 @@ p {
     height: 10em;
   }
 
-  .box-center {
-    display: flex;
-  }
-
   .mobile-hidden {
     visibility: hidden;
     display: none;
+  }
+
+  h2 {
+    margin-top: .5em;
   }
 }
 
