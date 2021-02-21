@@ -1,5 +1,5 @@
 <template>
-  <footer>dla SatAgro przez Tomasz Kolasa</footer>
+  <footer>{{ $t("footer") }}</footer>
 </template>
 
 <style scoped>

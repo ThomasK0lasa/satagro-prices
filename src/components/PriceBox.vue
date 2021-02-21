@@ -1,25 +1,26 @@
 <template>
   <div class="box-white">
-    <h2>Premium</h2>
+    <h2>{{ $t("offer." + type + "-title") }}</h2>
     <h3>15 zł <small>ha/rok</small></h3>
     <span class="mobile-hidden">
       <p>
-        Wszystkie usługi Professional<br />
-        Wysoko rozdzielczy monitoring „Planet”<br />
-        Integracja sensorów (IoT, stacje meteo)<br />
-        Doradztwo agronomiczne<br />
+        {{ $t("offer." + type + "-desc") }}
       </p>
     </span>
     <p class="bottom">
-      <a
-        id="btn-buy-pre"
-        class="btn-green"
-        href="https://app.satagro.pl/accounts/signup/?source=LP_pl_premium"
-        >Kup teraz</a
-      >
+      <a class="btn-green" :href="$t('offer.' + type + '-link')">{{
+        $t("offer." + type + "-btn")
+      }}</a>
     </p>
   </div>
 </template>
+
+<script>
+export default {
+  name: "PriceBox",
+  props: ["type"],
+};
+</script>
 
 <style scoped>
 .box-white {

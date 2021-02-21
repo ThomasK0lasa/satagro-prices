@@ -1,0 +1,27 @@
+{
+    "title": "Oferta",
+    "offer": {
+        "year": "rok",
+        "starter-title": "Starter",
+        "starter-desc": "1 pole do 50 ha",
+        "starter-btn": "ZAŁÓŻ KONTO",
+        "starter-link": "https://app.satagro.pl/accounts/signup/?source=LP_pl_starter",
+        "pro-title": "Professional",
+        "pro-desc": "Monitoring satelitarny gospodarstwa\nMapy aplikacyjne\nWsparcie pobierania prób glebowych\nObsługa techniczna",
+        "pro-btn": "KUP TERAZ",
+        "pro-link": "https://app.satagro.pl/accounts/signup/?source=LP_pl_professionl",
+        "premium-title": "Premium",
+        "premium-desc": "Wszystkie usługi Professional\nWysoko rozdzielczy monitoring „Planet”\nIntegracja sensorów (IoT, stacje meteo)\nDoradztwo agronomiczne",
+        "premium-btn": "KUP TERAZ",
+        "premium-link": "https://app.satagro.pl/accounts/signup/?source=LP_pl_premium",
+        "other-title": "Inne usługi",
+        "other-desc": "Doradztwo\nBadanie gleby\nZobrazowania dronowe",
+        "other-btn": "KONTAKT",
+        "other-link": "https://satagro.net/?lang=pl#contact"
+    },
+    "other": "Masz specyficzne potrzeby? Wypełnij {0}, skontaktujemy się z tobą!",
+    "other-formularz": "formularz",
+    "other-link": "https://satagro.net/?lang=pl#contact",
+    "note": "* Podane ceny zawierają podatek VAT.",
+    "footer": "dla SatAgro przez Tomasz Kolasa"
+}
