@@ -1,21 +1,25 @@
 {
     "title": "Oferta",
     "offer": {
+        "hectare": "ha",
+        "acre": "akr",
         "year": "rok",
         "Starter-title": "Starter",
+        "Starter-price": "gratis",
         "Starter-desc": "1 pole do 50 ha",
         "Starter-btn": "ZAŁÓŻ KONTO",
         "Starter-link": "https://app.satagro.pl/accounts/signup/?source=LP_pl_starter",
         "Professional-title": "Professional",
-        "Professional-desc": "Monitoring satelitarny gospodarstwa\nMapy aplikacyjne\nWsparcie pobierania prób glebowych\nObsługa techniczna",
+        "Professional-desc": "Satelitní monitoring farmy{0}Aplikační mapy{0}Podpora procesu vzorkování půdy       Technická podpora",
         "Professional-btn": "KUP TERAZ",
         "Professional-link": "https://app.satagro.pl/accounts/signup/?source=LP_pl_professionl",
         "Premium-title": "Premium",
-        "Premium-desc": "Wszystkie usługi Professional\nWysoko rozdzielczy monitoring „Planet”\nIntegracja sensorów (IoT, stacje meteo)\nDoradztwo agronomiczne",
+        "Premium-desc": "Wszystkie usługi Professional{0}Wysoko rozdzielczy monitoring „Planet”{0}Integracja sensorów (IoT, stacje meteo){0}Doradztwo agronomiczne",
         "Premium-btn": "KUP TERAZ",
         "Premium-link": "https://app.satagro.pl/accounts/signup/?source=LP_pl_premium",
         "Other-title": "Inne usługi",
-        "Other-desc": "Doradztwo\nBadanie gleby\nZobrazowania dronowe",
+        "Other-price": "",
+        "Other-desc": "Doradztwo{0}Badanie gleby{0}Zobrazowania dronowe",
         "Other-btn": "KONTAKT",
         "Other-link": "https://satagro.net/?lang=pl#contact"
     },
@@ -30,7 +34,7 @@
         "units": "Wybierz system miary"
     },
     "units": {
-        "imperial": "Imperialny",
+        "imperial": "Imperialne",
         "metric": "Metryczny"
     },
     "countries": {

@@ -1,0 +1,46 @@
+{
+    "title": "Oferta",
+    "offer": {
+        "hectare": "ha",
+        "acre": "aker",
+        "year": "rok",
+        "Starter-title": "Starter",
+        "Starter-price": "gratis",
+        "Starter-desc": "1 pole do 50 ha",
+        "Starter-btn": "ZAREGISTRUJTE SA",
+        "Starter-link": "https://app.satagro.pl/accounts/signup/?source=LP_sk_starter",
+        "Professional-title": "Professional",
+        "Professional-desc": "Satelitné monitorovanie farmy{0}Aplikačné mapy{0}Podpora pri vzorkovaní pôdy{0}Technická podpora",
+        "Professional-btn": "Kúpiť teraz",
+        "Professional-link": "https://app.satagro.pl/accounts/signup/?source=LP_sk_professionl",
+        "Premium-title": "Premium",
+        "Premium-desc": "Všetky služby zahrnuté v Professional{0}Vysoké rozlíšenie monitorovania \"Planet\"{0}Integrácia senzorov (IoT, meteostanice){0}Agronomické poradenstvo",
+        "Premium-btn": "Kúpiť teraz",
+        "Premium-link": "https://app.satagro.pl/accounts/signup/?source=LP_sk_premium",
+        "Other-title": "Ostatné služby",
+        "Other-price": "",
+        "Other-desc": "Poradenstvo{0}Odber vzoriek pôdy{0}Dronové snímky",
+        "Other-btn": "Kontaktujte nás",
+        "Other-link": "https://satagro.net/?lang=sk#contact"
+    },
+    "other": "Ako vám môžeme pomôcť s vašimi špecifickými potrebami? Vyplňte {0}, a my vás kontaktujeme!",
+    "other-form": "formulár",
+    "other-link": "https://satagro.net/?lang=sk#contact",
+    "note": "* Ceny sú uvedené vrátane DPH.",
+    "footer": "for SatAgro by Tomasz Kolasa",
+    "filters": {
+        "region": "Vyberte krajinu",
+        "currency": "Vyberte si menu",
+        "units": "Vyberte systém merania"
+    },
+    "units": {
+        "imperial": "Cisárske",
+        "metric": "Metrické"
+    },
+    "countries": {
+        "czech": "Česká republika",
+        "lithuania": "Litva",
+        "poland": "Poľsko",
+        "slovakia": "Slovensko"
+    }
+}
