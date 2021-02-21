@@ -62,7 +62,6 @@ export default {
   },
   computed: {
     getCurrency: function () {
-      console.log("computing currency");
       return `${this.details.yearly_rate} ${this.details.currency_symbol} `;
     },
     getUnits: function () {
@@ -98,9 +97,6 @@ export default {
         });
     },
     getDetails: function () {
-      console.log(this.region);
-      console.log(this.currency);
-      console.log(this.units);
       const [result] = this.plan.filter((el) => {
         return (
           el.units_system === this.units &&
@@ -108,7 +104,6 @@ export default {
           el.region === this.region
         );
       });
-      console.log(result);
       this.details = result;
     },
   },
