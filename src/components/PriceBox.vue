@@ -18,7 +18,18 @@
 <script>
 export default {
   name: "PriceBox",
-  props: ["type"],
+  props: ["type", "api"],
+  created: function () {
+    if (this.api) {
+      console.log(this.api);
+      this.getData();
+    }
+  },
+  methods: {
+    getData: function() {
+      fetch(this.api).then(res => console.log(res))
+    }
+  }
 };
 </script>
 

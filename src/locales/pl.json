@@ -2,26 +2,41 @@
     "title": "Oferta",
     "offer": {
         "year": "rok",
-        "starter-title": "Starter",
-        "starter-desc": "1 pole do 50 ha",
-        "starter-btn": "ZAŁÓŻ KONTO",
-        "starter-link": "https://app.satagro.pl/accounts/signup/?source=LP_pl_starter",
-        "pro-title": "Professional",
-        "pro-desc": "Monitoring satelitarny gospodarstwa\nMapy aplikacyjne\nWsparcie pobierania prób glebowych\nObsługa techniczna",
-        "pro-btn": "KUP TERAZ",
-        "pro-link": "https://app.satagro.pl/accounts/signup/?source=LP_pl_professionl",
-        "premium-title": "Premium",
-        "premium-desc": "Wszystkie usługi Professional\nWysoko rozdzielczy monitoring „Planet”\nIntegracja sensorów (IoT, stacje meteo)\nDoradztwo agronomiczne",
-        "premium-btn": "KUP TERAZ",
-        "premium-link": "https://app.satagro.pl/accounts/signup/?source=LP_pl_premium",
-        "other-title": "Inne usługi",
-        "other-desc": "Doradztwo\nBadanie gleby\nZobrazowania dronowe",
-        "other-btn": "KONTAKT",
-        "other-link": "https://satagro.net/?lang=pl#contact"
+        "Starter-title": "Starter",
+        "Starter-desc": "1 pole do 50 ha",
+        "Starter-btn": "ZAŁÓŻ KONTO",
+        "Starter-link": "https://app.satagro.pl/accounts/signup/?source=LP_pl_starter",
+        "Professional-title": "Professional",
+        "Professional-desc": "Monitoring satelitarny gospodarstwa\nMapy aplikacyjne\nWsparcie pobierania prób glebowych\nObsługa techniczna",
+        "Professional-btn": "KUP TERAZ",
+        "Professional-link": "https://app.satagro.pl/accounts/signup/?source=LP_pl_professionl",
+        "Premium-title": "Premium",
+        "Premium-desc": "Wszystkie usługi Professional\nWysoko rozdzielczy monitoring „Planet”\nIntegracja sensorów (IoT, stacje meteo)\nDoradztwo agronomiczne",
+        "Premium-btn": "KUP TERAZ",
+        "Premium-link": "https://app.satagro.pl/accounts/signup/?source=LP_pl_premium",
+        "Other-title": "Inne usługi",
+        "Other-desc": "Doradztwo\nBadanie gleby\nZobrazowania dronowe",
+        "Other-btn": "KONTAKT",
+        "Other-link": "https://satagro.net/?lang=pl#contact"
     },
     "other": "Masz specyficzne potrzeby? Wypełnij {0}, skontaktujemy się z tobą!",
-    "other-formularz": "formularz",
+    "other-form": "formularz",
     "other-link": "https://satagro.net/?lang=pl#contact",
     "note": "* Podane ceny zawierają podatek VAT.",
-    "footer": "dla SatAgro przez Tomasz Kolasa"
+    "footer": "dla SatAgro przez Tomasz Kolasa",
+    "filters": {
+        "region": "Wybierz kraj",
+        "currency": "Wybierz walute",
+        "units": "Wybierz system miary"
+    },
+    "units": {
+        "imperial": "Imperialny",
+        "metric": "Metryczny"
+    },
+    "countries": {
+        "czech": "Czechy",
+        "lithuania": "Litwa",
+        "poland": "Polska",
+        "slovakia": "Słowacja"
+    }
 }
