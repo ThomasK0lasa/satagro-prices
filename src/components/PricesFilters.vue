@@ -38,22 +38,14 @@ export default {
   name: "PricesFilters",
   data: function () {
     return {
-      region: [
-        { name: this.$t("countries.czech"), id: "CZ" },
-        { name: this.$t("countries.lithuania"), id: "LT" },
-        { name: this.$t("countries.poland"), id: "PL" },
-        { name: this.$t("countries.slovakia"), id: "SK" },
-      ],
+      region: this.getRegionLocales(),
       currency: {
         CZ: [{ name: "Kč", id: "CZK" }],
         LT: [{ name: "€", id: "EUR" }],
         PL: [{ name: "zł", id: "PLN" }],
         SK: [{ name: "€", id: "EUR" }],
       },
-      units: [
-        { name: this.$t("units.metric"), id: 3 },
-        { name: this.$t("units.imperial"), id: 4 },
-      ],
+      units: this.getUnitsLocales(),
       selectedRegion: "PL",
       selectedCurrency: "PLN",
       selectedUnits: 3,
@@ -61,10 +53,21 @@ export default {
   },
   methods: {
     setRegion(value) {
-      this.$emit("set-region", value);
-      const currency = this.currency[value][0].id
+      const currency = this.currency[value][0].id;
       this.selectedCurrency = currency;
       this.$emit("set-currency", currency);
+      this.$emit("set-region", value);
+      this.$i18n.locale = value.toLowerCase();
+      this.region = this.getRegionLocales();
+      this.units = this.getUnitsLocales();
+    },
+    getRegionLocales() {
+      return [
+        { name: this.$t("countries.czech"), id: "CZ" },
+        { name: this.$t("countries.lithuania"), id: "LT" },
+        { name: this.$t("countries.poland"), id: "PL" },
+        { name: this.$t("countries.slovakia"), id: "SK" },
+      ];
     },
     setCurrency(value) {
       this.$emit("set-currency", value);
@@ -72,6 +75,12 @@ export default {
     setUnits(value) {
       this.$emit("set-units", value);
     },
+    getUnitsLocales() {
+      return [
+        { name: this.$t("units.metric"), id: 3 },
+        { name: this.$t("units.imperial"), id: 4 },
+      ]
+    }
   },
 };
 </script>

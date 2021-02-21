@@ -46,7 +46,6 @@ export default {
   },
   methods: {
     setRegion(value) {
-      this.$i18n.locale = value.toLowerCase();
       this.region = value;
     },
     setCurrency(value) {
