@@ -1,12 +1,12 @@
 <template>
-  <fragment>
-    <div class="box-white box-center" v-if="loading">
+  <div class="box-white">
+    <div class="box-center" v-if="loading">
       <div class="lds-ripple">
         <div></div>
         <div></div>
       </div>
     </div>
-    <div class="box-white" v-if="plan">
+    <fragment v-if="plan">
       <h2>{{ $t("offer." + type + "-title") }}</h2>
       <h3>
         {{ getCurrency }}<small>{{ getUnits }}</small>
@@ -21,8 +21,8 @@
           $t("offer." + type + "-btn")
         }}</a>
       </p>
-    </div>
-    <div class="box-white" v-if="!api">
+    </fragment>
+    <fragment v-if="!api">
       <h2>{{ $t("offer." + type + "-title") }}</h2>
       <h3>{{ $t("offer." + type + "-price") }}</h3>
       <span class="mobile-hidden">
@@ -35,11 +35,11 @@
           $t("offer." + type + "-btn")
         }}</a>
       </p>
-    </div>
-    <div class="box-white box-center" v-if="error">
+    </fragment>
+    <div class="box-center" v-if="error">
       <p>Error!</p>
     </div>
-  </fragment>
+  </div>
 </template>
 
 <script>

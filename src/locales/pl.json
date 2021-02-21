@@ -10,7 +10,7 @@
         "Starter-btn": "ZAŁÓŻ KONTO",
         "Starter-link": "https://app.satagro.pl/accounts/signup/?source=LP_pl_starter",
         "Professional-title": "Professional",
-        "Professional-desc": "Satelitní monitoring farmy{0}Aplikační mapy{0}Podpora procesu vzorkování půdy       Technická podpora",
+        "Professional-desc": "Monitoring satelitarny gospodarstwa{0}Mapy aplikacyjne{0}Wsparcie pobierania prób glebowych{0}Obsługa techniczna",
         "Professional-btn": "KUP TERAZ",
         "Professional-link": "https://app.satagro.pl/accounts/signup/?source=LP_pl_professionl",
         "Premium-title": "Premium",
@@ -35,7 +35,7 @@
     },
     "units": {
         "imperial": "Imperialne",
-        "metric": "Metryczny"
+        "metric": "Metryczne"
     },
     "countries": {
         "czech": "Czechy",

@@ -8,7 +8,15 @@
     />
     <div class="container">
       <PriceBox type="Starter" />
-      <PriceBox v-for="plan in plans" :type="plan" :key="plan" :api="true" :region="region" :currency="currency" v-bind:units="units"/>
+      <PriceBox
+        v-for="plan in plans"
+        :type="plan"
+        :key="plan"
+        :api="true"
+        :region="region"
+        :currency="currency"
+        v-bind:units="units"
+      />
       <PriceBox type="Other" />
     </div>
     <PricesInfo />
@@ -63,5 +71,10 @@ h1 {
 
 main {
   flex-grow: 1;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
 }
 </style>
